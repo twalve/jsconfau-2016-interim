@@ -1,0 +1,73 @@
+body {
+	background-color: cadetblue;/* #adcece was too light */
+	color: rgb(51, 52, 50);
+  font-family: 'Lato', sans-serif;
+	line-height: 1.4;
+	margin: 0;
+	text-align: justify;
+}
+
+main {
+	margin: 0 auto 2rem;
+	max-width: 30rem;
+}
+
+a {
+	color: whitesmoke;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+ol, ul {
+	list-style-position: inside;
+	list-style-type: square;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding-bottom: .5rem;
+}
+
+h2 {
+	font-family: "Source Code Pro";
+	line-height: 1.1;
+	text-align: left;
+}
+
+main a {
+	font-weight: 400;
+}
+
+main header {
+	text-align: center;
+}
+
+main header h1 {
+	margin: 0;
+}
+
+main header h2 {
+	line-height: 1.4;
+	margin: -2.5rem 0 0 0;
+	text-align: center;
+}
+
+main header img {
+	width: 100%;
+}
+
+main header time {
+	color: cadetblue;
+	display: block;
+	font-size: larger;
+}
+
+main header span {
+	display: block;
+	margin-top: -.75rem;
+}
+
+footer a {
+	color: rgb(51, 52, 50);
+}
