@@ -1,0 +1,13 @@
+@media screen and (max-width: 520px) {
+  main > footer {
+    margin: 0 1rem;
+  }
+
+  article {
+    margin: 0 1rem;
+  }
+
+  blockquote {
+    margin: 1rem;
+  }
+}
