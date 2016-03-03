@@ -1,8 +1,6 @@
 body {
-	background-color: cadetblue;/* #adcece was too light */
-	color: rgb(51, 52, 50);
-  font-family: 'Lato', sans-serif;
-	line-height: 1.4;
+	background-color: #2E3561;
+	color: whitesmoke;
 	margin: 0;
 	text-align: justify;
 }
@@ -15,7 +13,7 @@ main {
 a {
 	color: whitesmoke;
 	font-weight: 600;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 ol, ul {
@@ -30,8 +28,8 @@ li {
 }
 
 h2 {
-	font-family: "Source Code Pro";
 	line-height: 1.1;
+	margin-top: 3rem;
 	text-align: left;
 }
 
@@ -58,16 +56,20 @@ main header img {
 }
 
 main header time {
-	color: cadetblue;
+	color: #2E3561;
 	display: block;
-	font-size: larger;
+  font-size: 1.5rem;
 }
 
 main header span {
 	display: block;
-	margin-top: -.75rem;
+	margin-top: -.5rem;
 }
 
-footer a {
-	color: rgb(51, 52, 50);
+footer h3 {
+	text-align: left;
+}
+
+footer p {
+	text-align: left;
 }
